@@ -1,4 +1,5 @@
 ﻿using System;
+using TareaListView.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace TareaListView
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new CarsPage();
         }
 
         protected override void OnStart()
